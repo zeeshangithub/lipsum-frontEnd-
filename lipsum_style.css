@@ -1,0 +1,549 @@
+	
+@font-face {
+  font-family: 'HelveticaCE';
+  src: url('font/HelveticaCE.eot');
+  src: local(':relaxed:'), url('font/HelveticaCE.woff')
+   format('woff'), url('font/HelveticaCE.ttf')
+    format('truetype'), url('font/HelveticaCE.svg')
+     format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+	
+@font-face {
+  font-family: 'Novecento-WideLight';
+  src: url('font/Novecento-WideLight.eot');
+  src: local(':relaxed:'), url('font/Novecento-WideLight.woff')
+   format('woff'), url('font/Novecento-WideLight.ttf')
+    format('truetype'), url('font/Novecento-WideLight.svg')
+     format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Swiss721BT-Thin';
+  src: url('font/Swiss721BT-Thin.eot');
+  src: local(':relaxed:'), url('font/Swiss721BT-Thin.woff')
+   format('woff'), url('font/Swiss721BT-Thin.ttf')
+    format('truetype'), url('font/Swiss721BT-Thin.svg')
+     format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaCE-Narrow';
+  src: url('font/HelveticaCE-Narrow.eot');
+  src: local(':relaxed:'), url('font/HelveticaCE-Narrow.woff')
+   format('woff'), url('font/HelveticaCE-Narrow.ttf')
+    format('truetype'), url('font/HelveticaCE-Narrow.svg')
+     format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Swiss721BT-BoldCondensed';
+  src: url('font/Swiss721BT-BoldCondensed.eot');
+  src: local(':relaxed:'), url('font/Swiss721BT-BoldCondensed.woff')
+   format('woff'), url('font/Swiss721BT-BoldCondensed.ttf')
+    format('truetype'), url('font/Swiss721BT-BoldCondensed.svg')
+     format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('font/MyriadPro-Regular.eot');
+  src: local(':relaxed:'), url('font/MyriadPro-Regular.woff')
+   format('woff'), url('font/MyriadPro-Regular.ttf')
+    format('truetype'), url('font/MyriadPro-Regular.svg')
+     format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('font/MyriadPro-Regular.eot');
+  src: local(':relaxed:'), url('font/MyriadPro-Regular.woff')
+   format('woff'), url('font/MyriadPro-Regular.ttf')
+    format('truetype'), url('font/MyriadPro-Regular.svg')
+     format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'tahoma';
+  src: url('font/tahoma.eot');
+  src: local(':relaxed:'), url('font/tahoma.woff')
+   format('woff'), url('font/tahoma.ttf')
+    format('truetype'), url('font/tahoma.svg')
+     format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'helveticace-cond';
+  src: url('font/helveticace-cond.eot');
+  src: local(':relaxed:'), url('font/helveticace-cond.woff')
+   format('woff'), url('font/helveticace-cond.ttf')
+    format('truetype'), url('font/helveticace-cond.svg')
+     format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+	#bg
+        {
+        	background: url(images/main_bg.png);
+			margin: 0 auto;
+			overflow: hidden;
+        }
+		#cntnt_bg{
+		background: white;
+width: 1007px;
+margin: 50px auto;
+box-shadow: 0px 2px 7px -1px #c3c3c3;
+			}
+			
+			#header{
+			width:1007px;
+			height:145px;
+			border-top: 10px solid #f2ac04;
+			}
+			
+			
+			#lipsum{
+		float: left;
+font-size: 45px;
+font-family: HelveticaCE;
+margin: 45px 0 0 36px;
+height: 58px;
+background: url(images/logo-img.png) no-repeat;
+padding: 2px 43px 0 95px;
+border-right: 1px solid #3c3c3c;
+
+			}
+			#hedr_cntnt{
+			float:right;
+			padding: 44px 275px 0 0;
+			}
+			#hedr_cntnt_head{
+			font-size: 20.18px;
+font-family: Novecento-WideLight;
+color: #f2ac04;
+font-weight: 200;
+line-height: 39px;
+word-spacing: 4px;
+			}
+			#hedr_cntnt_para{
+			font-family: HelveticaCE;
+font-size: 14.18px;
+color:#929292;
+			}
+			#nevigation
+			
+{
+border-top: 1px solid #afafaf;
+border-bottom: 1px solid #afafaf;
+overflow: hidden;
+width: 922px;
+margin: 0 auto;
+margin-bottom: 40px;
+}
+
+#nevigation li{
+float:left;
+padding: 15px 60px 13px 0;
+list-style:none;
+}
+#nevigation a{
+  text-decoration: none;
+font-family: Swiss721BT-Thin;
+font-size: 18px;
+color:#6b6b6b;
+font-weight:900;
+}
+#products{
+height:370px;
+width:923px;
+border-bottom:1px solid #afafaf;
+margin:0 auto;
+margin-bottom:35px;
+	}
+	#product_1{
+float: left;
+border: 2px solid #d6d6d6;
+}
+#image_1{
+background: url(images/img1.png) no-repeat;
+height: 250px;
+width: 440px;}
+#border_div{
+border: 2px solid #b0b0b0;
+    float: left;
+    padding: 2px;}
+#product_list{
+  margin: 14px 0 14px 0;
+  }
+
+ 
+  #product_list_para{
+		display: inline-block;
+position: relative;
+bottom: 7px;
+left: 26px;
+font-family: Helvetica;
+  }
+  #product_data{
+  background:url(images/img2.png);
+  height:200px;
+  width:450px;
+  float:right;
+  font-family:HelveticaCE;
+  margin:0 0 7px;
+
+  }
+  #product_data_para{
+color: white;
+font-size: 26px;
+padding: 67px 0 16px 22px;
+font-family: Novecento-WideLight;
+word-spacing: 12px;
+
+
+  }
+  #product_data_h3{
+ color: white;
+font-size: 40px;
+padding: 0 0 0 22px;
+font-family: Tahoma;
+font-weight: Lighter;
+  }
+  #product_para{
+float: right;
+border-top: 1px solid black;
+line-height: 24px;
+font-size: 14px;
+font-family: HelveticaCE-Narrow;
+letter-spacing: 1px;
+padding: 17px 0 0 0;
+font-weight: bold;
+	}
+	#conacts{
+	width:923px;
+	margin:0 auto;
+	overflow:hidden;
+	height:340px;
+	}
+	#News{
+	border-right: 1px solid #afafaf;
+width: 366px;
+float:left;
+margin:0 24px 0 0 ;
+	}
+	#conacts h2{
+	
+	padding:0 0 20px 0;
+font-family:"helveticace-cond";
+	}
+	#latest_news {
+    list-style: outside none none;
+    margin: 0;
+	padding:0px;
+	width: 337px;
+	font-family:MyriadPro-Regular;
+}
+
+#latest_news li {
+    border-bottom: 2px dotted #afafaf;
+    overflow: hidden;
+    padding: 12px 0;
+}
+.news_left_div {
+    border-right: 1px solid #afafaf;
+    float: left;
+    margin: 0 17px 0 0;
+    padding: 0;
+    width: 44px;
+}
+.news_left_div h3 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+	color:#f2ac04;
+}
+.news_right_div  p{font-size:17px;}
+.news_right_div {
+    float: right;
+    width: 273px;
+}
+.news_right_div  h4{
+margin:0 0 6px 0;
+font-size:16px;}
+.news_right_div p{
+line-height:17px;
+}
+ .news_right_div  p{margin:0;}
+ #about_us{
+border-right: 1px solid #afafaf;
+width: 285px;
+float: left;
+height: 285px;
+margin: 0 27px 0 0;
+
+
+ }
+ #more{ 
+float: right;
+overflow:hidden;
+ }
+ #contact_us{
+ height:318px;
+ width:211px;
+ float:left;}
+ #conact_list li a{
+padding: 3px 0 28px 52px;
+color:#75757e;
+text-decoration:none;
+font-family: MyriadPro-Regular;
+
+text
+}
+ #conact_list li  .Swiss721BT-BoldCondensed{
+font-family:Swiss721BT-BoldCondensed;
+}
+#img1_path{
+background:url(images/mom-img.png) no-repeat; 
+background-position:7px 0px;
+}
+#img2_path{
+background:url(images/telephon-img.png) no-repeat;
+}
+#img3_path{
+background:url(images/latter-img.png) no-repeat ;  
+background-position:3px 5px;
+}
+#img4_path{
+background:url(images/hous-img.png) no-repeat ;  
+background-position:5px 0px;
+width: 155px;
+display: inline-block;
+line-height: 26px;
+text-decoration: none;
+
+}
+#conact_list{
+overflow:hidden;
+margin:0px;
+padding:0px;
+}
+#conact_list li{
+padding: 13px 0 20px 0;
+overflow: hidden;
+border-bottom:1px dotted black;
+}
+#clients{
+height:90px;
+width:923px;
+border-bottom:1px solid #afafaf;;
+margin: 0 auto;
+margin-bottom:18px;
+ font-family:Tahoma;
+ }
+	#client1{
+	background: url(images/at&t.png)no-repeat;
+display: block;
+	text-indent: -9999px;
+	}
+		#client2{
+	background: url(images/inc.png)no-repeat;
+display: block;
+text-indent: -9999px;
+	}
+		#client3{
+background: url(images/auto.png)no-repeat;
+display: block;
+height: 22px;
+text-indent: -9999px;
+	}
+		#client4{
+	background: url(images/visa.png)no-repeat;
+position: relative;
+display: block;
+	text-indent: -9999px;}
+		#client5{
+background: url(images/polar.png)no-repeat;
+position: relative;
+height: 30px;
+text-indent: -9999px;
+color:transparent;
+	}
+		#client6{
+	background: url(images/gap-img.png)no-repeat;
+	display: block;
+height: 15px;
+text-indent: -9999px;
+	}
+	.images{
+padding:20px 55px 16px 50px;
+	}
+	#client_list{
+	list-style:none;
+		overflow:hidden;
+	}
+	#client_list li{
+float: left;
+padding:0 0 0 42px;
+	}
+#footer_logo{
+margin:0 auto 9px;
+width:145px;
+overflow:hidden;
+}
+	#footer_logo_img{
+	 	
+	background:url(images/small-logo.png) no-repeat;
+	height:34px;
+	width:43px;
+	float:left;
+	font-family: HelveticaCE;
+	padding: 10px 0 0 52px;
+	}
+	
+	
+	.ourclients::before
+	{
+	display: inline-block;
+    margin: 0 4px 5px 0px;
+    height: 1px;
+    content: " ";
+    background-color: #afafaf;
+    width: 23px;
+	}
+	
+	.ourclients::after
+	{
+	display: inline-block;
+    margin: 0 0 5px 4px;
+    height:1px;
+    content: " ";
+    background-color: #afafaf;
+    width: 780px;
+	}
+	
+#footer_nevigation{
+ list-style: none;
+overflow: hidden;
+width: 480px;
+margin: 0px auto 8px;
+  font-family:Swiss721BT-Thin;
+
+  }
+#footer_nevigation li {
+  float:left;
+  padding:0 9px;
+  border-right:1px solid #afafaf;
+}
+#footer_nevigation li a{
+  text-decoration:none;
+  color:#afafaf;
+  font-size:10px;
+}
+#footer_nevigation #last_LI{
+  padding: 0 0 0 16px;
+  border:none;
+  font-family:Swiss721BT-Thin;
+}
+
+#footer_para{
+text-align:center;
+font-family:Swiss721BT-Thin;
+padding: 0 0 5px 0;
+}
+#contact_para{
+line-height: 23px; width: 257px;
+	margin:0 0 15px 0;
+	font-family:HelveticaCE;
+	font-size:16px;
+	word-spacing:-1px;
+	}
+	#contacts_div1_h2{
+	font-size:18px;
+	font-weight:100;
+	}
+	#contacts_div2_h2{
+	font-size:18px;
+	}
+	#contact_us_h2{
+	font-size:18px;
+	}
+	.left_div small{
+	font-size: 13px;
+	}
+	.right_div p{
+	line-height:17px;
+	}
+	#product_headng{
+	margin: 0 0 11px;
+	font-family: MyriadPro-Regular;
+	font-size:13px;
+	color:#555656;
+	}
+	
+	#img1{
+	margin:20px 0 0 0;}
+	#img2{
+	margin:27px 0 0 0;}
+	#img4{
+	margin:28px 0 0 0;}
+	#img5{
+	margin:20px 0 0 0;}
+	#img6{
+	margin:3px 0 0 0;}
+	#more_text{
+	background: black;color: white;padding: 0px 8px;
+	font-family:Tahoma;
+	}
+	#more_icon{background: black;color: white;padding: 2px 4px;font-weight: bold;}
+	#more1{
+	float:right;
+	padding: 0 14px;
+	}
+	#product_2{
+	float: right;
+width: 450px; 	
+	}
+	
+.color{
+color:#565656;
+}
+.color_2{
+color:#565656;
+}
+.color_logo{
+color:#3c3c3c;
+}
+.arrow{
+background:url(images/arrow.png);
+height:15px;
+width:12px;
+}
+.more_text{
+background:url(images/more-img.png);
+height:15px;
+width:42px;
+}
+1
+#product_list  #product_list_1{
+
+float:left;
+}
+#product_list #product_list_2 {
+float:right;
+}
+
+#product_list_left{
+padding: 0 0 0 24px;
+}
+#product_list_right{
+padding: 0px 24px 0 0;
+float:right;
+}
